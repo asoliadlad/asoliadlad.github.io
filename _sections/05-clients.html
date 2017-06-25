@@ -1,0 +1,57 @@
+---
+title: CLIENTES
+clients:
+  - title: HSBC
+    url:
+    logo:
+  - title: BMW
+    url:
+    logo:
+  - title: Deloitte
+    url:
+    logo:
+  - title: Asics
+    url:
+    logo:
+  - title: Latam
+    url:
+    logo:
+  - title: BT
+    url:
+    logo:
+  - title: Samsung
+    url:
+    logo:
+  - title: Coca Cola
+    url:
+    logo:
+  - title: Castrol BP
+    url:
+    logo:
+  - title: Alphaville
+    url:
+    logo:
+---
+
+
+<ul class="c-clients  o-content">
+  {% for client in page.clients %}
+    <li>
+      {% if client.url %}
+        <a href="{{ client.url }}" target="_blank" rel="nofollow">
+          {% if client.logo %}
+            <img src="assets/images/clients/{{ client.logo }}" alt="{{ client.title }}">
+          {% else %}
+            {{ client.title }}
+          {% endif %}
+        </a>
+      {% else %}
+          {% if client.logo %}
+            <img src="assets/images/clients/{{ client.logo }}" alt="{{ client.title }}">
+          {% else %}
+            {{ client.title }}
+          {% endif %}
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>

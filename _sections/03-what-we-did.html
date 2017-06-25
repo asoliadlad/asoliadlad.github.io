@@ -1,0 +1,32 @@
+---
+title: O QUE JÁ FIZEMOS
+content_class: "o-section__full-bottom-space"
+works:
+  - title: "Musée du Louvre"
+    thumb: "assets/images/portfolio/1_thumb.jpg"
+    full: "assets/images/portfolio/1_full.jpg"
+    description: "A description of the piece here"
+  - title: "Musée du Louvre"
+    thumb: "assets/images/portfolio/1_thumb.jpg"
+    full: "assets/images/portfolio/1_full.jpg"
+    description: "A description of the piece here"
+  - title: "Musée du Louvre"
+    thumb: "assets/images/portfolio/1_thumb.jpg"
+    full: "assets/images/portfolio/1_full.jpg"
+    description: "A description of the piece here"
+---
+
+<div class="o-grid  o-grid--gallery">
+  {% for item in page.works %}
+    <div class="o-grid__col-sm-6">
+      <a class="c-image-overlay  t-image-overlay  js-lightbox" href="{{ item.full }}" data-lightbox-hidpi="" title="Musée du Louvre" data-lightbox-gallery="portfolio">
+        <div class="c-image-overlay__content">
+          <h3>{{ item.title }}</h3>
+          <hr class="c-image-overlay__deco-line  t-image-overlay__deco-line" />
+          <p>{{ item.description }}</p>
+        </div>
+      </a>
+    </div>
+  {% endfor %}
+</div>
+
