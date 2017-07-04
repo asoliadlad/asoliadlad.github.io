@@ -8,10 +8,10 @@ Conseguimos executar de forma rápida e eficiente todas as etapas necessárias p
 
 ### Tecnologia e Infraestrutura
 
-Consciências de sua importância, oferecemos uma ampla gama de serviços e implementação de tecnologia, infra estrutura e informática para o seu evento ou seu negócio.
+Conscientes de sua importância, oferecemos uma ampla gama de serviços e implementação de tecnologia, infraestrutura e informática para o seu evento ou seu negócio.
 
-Construimos e desenhamos a infraestrutura de rede e TI para seu evento com eficiência, segurança e velocidade desejada pelos usuários.
+Construímos e desenhamos a infraestrutura de rede e TI para seu evento com eficiência, segurança e velocidade desejada pelos usuários.
 
 Instalamos links dedicados para transmissão em tempo real do seu evento.
 
-Cada situacao e unica e por isso prohjetamos, instalamos e apoiamos solucoes acessiveis parea atender as suas necessidades, permitindo que vc se concentre em seu evento.
+Cada situação é única e por isso projetamos, instalamos e apoiamos soluções acessíveis para atender as suas necessidades, permitindo que você se concentre em seu evento.
